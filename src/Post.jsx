@@ -41,9 +41,9 @@ function Post() {
 
   return (
     <div>
-        <div className="h-screen flex items-center justify-center bg-black text-white  flex-col gap-4">
-      <h1 className="text-4xl font-bold">Post Form</h1> 
-      <form onSubmit={handleSubmit} className="flex flex-col space-y-4 mt-8 w-80>">
+        <div className="h-screen flex items-center justify-center bg-black text-white flex-col gap-4">
+      <h1 className="text-4xl font-bold ">Post Form</h1> 
+      <form onSubmit={handleSubmit} className="flex flex-col space-y-4 mt-8">
         <label className="flex flex-col">
           Title
           <input type=" text"  onChange={handleChange} name="title" className=" mt-1 p-2 bg-gray-800 border border-gray-700 rounded" />
@@ -61,8 +61,7 @@ function Post() {
       </form>
     </div>
   
-
-    </div>
+ </div>
   )
 }
 
