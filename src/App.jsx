@@ -26,7 +26,7 @@ useEffect(() => {
 
   return (
     <div>
-      <table className="border-collapse border border-blue-300 w-full">
+      <table className="border-collapse border border-red-500 w-full">
         <thead className="bg-blue-200">
           <tr className="border border-blue-300">
             <th className="p-2 text-left">Title</th>
